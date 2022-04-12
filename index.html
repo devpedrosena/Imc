@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto_Imc</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="fav_icons/icon.svg" type="image/x-icon">
+</head>
+<body>
+    <div class="main">
+        <div class="left-main">
+            <h1>Faça a medição <br>do seu Imc aqui</h1>
+            <img src="fav_icons/myimg.svg" class="imgMain" alt="">
+        </div>
+        <div class="rigth-main">
+            <div class="card">
+                <h1>IMC</h1>
+                <div id="resultado">
+                    <p></p>
+                </div>
+                <div class="text-field">
+                    <label for="nome">nome</label>
+                    <input type="text" placeholder="Informe o seu nome" id="nome">
+                </div>
+                <div class="text-field">
+                    <label for="peso">peso</label>
+                    <input type="number" id="peso" placeholder="Informe o seu peso">
+                </div>
+                <div class="text-field">
+                    <label for="altura">altura</label>
+                    <input type="number" id="altura" placeholder="altura">
+                </div>
+                <button id="calcular">Calcular </button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
